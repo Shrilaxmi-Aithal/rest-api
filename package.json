@@ -1,15 +1,26 @@
 {
-       "name": "node js"
-      , "description": "node js"
-      , "contributors": []
-      , "dependencies": {
-            "nodejs": ""
-        }
-      , "lib"           : "."
-      , "main"          : "./main.js"
-      , "version"       : ""
-      , "engines": {
-        "node": "4.4.6",
-        "npm" : "2.15.5"
-      }
-    }
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "connect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shrilaxmi-Aithal/rest-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shrilaxmi-Aithal/rest-api/issues"
+  },
+  "homepage": "https://github.com/Shrilaxmi-Aithal/rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "multer": "^1.1.0"
+  }
+}
