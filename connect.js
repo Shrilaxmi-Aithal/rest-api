@@ -147,7 +147,7 @@
 		    	res.json(obj);
 		    }
 		});
-		//connection.end();
+		
 	});
 
 	// function to get resultset array
