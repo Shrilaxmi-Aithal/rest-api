@@ -1,0 +1,15 @@
+{
+       "name": "node js"
+      , "description": "node js"
+      , "contributors": []
+      , "dependencies": {
+            "nodejs": ""
+        }
+      , "lib"           : "."
+      , "main"          : "./main.js"
+      , "version"       : ""
+      , "engines": {
+        "node": "4.4.6",
+        "npm" : "2.15.5"
+      }
+    }
