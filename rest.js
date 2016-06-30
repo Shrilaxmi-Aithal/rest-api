@@ -1,5 +1,4 @@
 
-	
 	var express = require('express');
 	var bodyParser  =  require("body-parser");
 	var fs = require("fs");
@@ -17,6 +16,7 @@
 	app.get('/users/:id?', function (req, res) {
 		fs.readFile( __dirname + "/" + "user.json", 'utf8', function (err, data) {
 			val = JSON.parse(data);
+			//console.log(data);
 			if(req.params.id) {
 				console.log("id :"+req.params.id);
 			  	console.log( val[req.params.id]);
